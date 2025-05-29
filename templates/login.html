@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>💌 Nhập tên & mật khẩu để xem lời chúc 💌</h2>
+    <form method="POST">
+        <div>
+            <input type="text" name="username" placeholder="Tên của bạn">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Mật khẩu">
+        </div>
+        <div>
+            <button type="submit">Xem lời chúc</button>
+        </div>
+    </form>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
