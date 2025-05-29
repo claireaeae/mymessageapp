@@ -43,6 +43,9 @@ users = {
     "thanhnhi": {
         "password": "2911",
         "message": "thanh nhii dịu dàng ơi! Chị rất vui vì đã gặp em trong hành trình này. Mong em luôn giữ được sự nhiệt huyết và trái tim ấm áp của mình nhaaa. Cao v mà ko thi FTUCharm uổng quá đi kkkkk, lớn làm celeb idol đừng quên chị hehe <3"
+    "to": {
+        "password": "0209",
+        "message": "Con chó tô"
     }
 }
 
