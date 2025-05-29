@@ -65,5 +65,8 @@ def message(username):
         return render_template("message.html", username=username, message=users[username]["message"])
     return "Người dùng không tồn tại!", 404
 
+import os
+
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
